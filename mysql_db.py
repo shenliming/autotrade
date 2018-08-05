@@ -31,3 +31,6 @@ class MySql(object):
     def create_table(self, table_name):
         """create table"""
         pass
+    
+    def add_table(self, parameter_list):
+        pass
