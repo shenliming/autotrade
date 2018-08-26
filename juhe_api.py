@@ -211,7 +211,6 @@ class Juhe(object):
         params = {
             "key" : self.appkey, #您申请的APPKEY
             "page" : page, #第几页,每页20条数据,默认第1页
-    
         }
         params = urlencode(params)
         if m =="GET":
